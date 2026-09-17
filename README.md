@@ -61,13 +61,18 @@ La `RTI` y las subrutinas `SCAN`/`PRINT` comparten los buffers internos. El dise
 ### Tecnologías
 
 - Lenguaje ensamblador en arquitectura **Motorola 68000**.
-- Periférico DUART MC68681.
+- Periférico **DUART MC68681**.
 
 ## Estructura del proyecto
 
 ```plaintext
 .
-├── es_int.s        # INIT, SCAN, PRINT, RTI
-├── bib_aux.s       # ESCCAR, LEECAR, INI_BUFS y buffers internos
-└── README.md       # Descripción del proyecto        
+├── INSTRUCTIONS.md   # Instrucciones de instalación y ejecución del proyecto
+├── README.md         # Descripción del proyecto 
+├── bib_aux.s         # ESCCAR, LEECAR, INI_BUFS y buffers internos
+└── es_int.s          # INIT, SCAN, PRINT, RTI       
 ```
+
+## Instalación y ejecución
+
+Ver [INSTRUCTIONS.md](INSTRUCTIONS.md)
